@@ -5,6 +5,7 @@
   var = 123 # This will create a number integer assignment
   var = 'john' # the `var` variable is now a string type.
 2. Types of data type : 
+
   a. Numbers
       Most of the time Python will do variable conversion automatically. You can also use Python conversion functions (int(), long(), float(), complex()) to convert data from         one type to another. In addition, the type function returns information about how your data is stored within a variable.
       
