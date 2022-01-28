@@ -169,7 +169,7 @@ Converting Numbers to String
 
 a = 10
  
-# Converting number to string
+ Converting number to string
 s = str(a)
 print(s)
 print(type(s))
