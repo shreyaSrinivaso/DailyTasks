@@ -219,3 +219,15 @@ s2="science"
 # output ===> sathsmcience57te
 
 print(s2[0]+s1[1:4]+s2[0]+s1[0]+s2[1:]+str(len(s1))+str(len(s2))+s1[2]+s2[3])
+  
+  ========================================
+  s1="wikipedia"
+s2="typescript"
+
+mid1=str(s1[(len(s1)//2)])
+mid2=str(s2[(len(s2)//2)])
+
+#print(ord(mid1))
+#print(ord(mid2))
+print(ord(mid1)+ord(mid2))
+
