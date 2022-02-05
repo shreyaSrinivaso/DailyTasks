@@ -186,9 +186,23 @@ mid=length//2
 print(string[mid])
 
 
-
+============================================
 string=input("Enter a string:")
 
 print(string.strip("*"))
 print(string.rstrip("*"))
 print(string.lstrip("*"))
+
+
+========================================================
+string1=input("name<space>float 1:")
+string2=input("name<space>float 2:")
+string3=input("name<space>float 3:")
+
+a=float(string1.split()[1])
+b=float(string2.split()[1])
+c=float(string3.split()[1])
+
+print(a+b+c)
+
+
