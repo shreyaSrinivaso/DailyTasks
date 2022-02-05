@@ -205,4 +205,17 @@ c=float(string3.split()[1])
 
 print(a+b+c)
 
+===========================================
+  s1="python"
+s2="java"
 
+#output ===> jythonpava64hv
+print(s2[0]+s1[1:6]+s1[0]+s2[1:]+str(len(s1))+str(len(s2))+s1[3]+s2[2])
+  
+  ====================================
+  s1="maths"
+s2="science"
+
+# output ===> sathsmcience57te
+
+print(s2[0]+s1[1:4]+s2[0]+s1[0]+s2[1:]+str(len(s1))+str(len(s2))+s1[2]+s2[3])
