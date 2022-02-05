@@ -230,4 +230,14 @@ mid2=str(s2[(len(s2)//2)])
 #print(ord(mid1))
 #print(ord(mid2))
 print(ord(mid1)+ord(mid2))
+  
+  
+  ===================================
+  # string: computer
+# output: c6r
+
+
+string=input("Enter string:")
+
+print(string[0]+str(len(string)-2)+string[-1])
 
