@@ -175,4 +175,12 @@ print(s)
 print(type(s))
 
 
+# Get one string from user
+# identify the middle character of the string
 
+string=input("Enter a string:")
+length=len(string)
+#print(length)
+mid=length//2
+#print(mid)
+print(string[mid])
