@@ -184,3 +184,11 @@ length=len(string)
 mid=length//2
 #print(mid)
 print(string[mid])
+
+
+
+string=input("Enter a string:")
+
+print(string.strip("*"))
+print(string.rstrip("*"))
+print(string.lstrip("*"))
